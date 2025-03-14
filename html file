@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immersive Travel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Immersive Travel</h1>
+        <nav>
+            <ul>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#sign-up">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">Step 1 Description</div>
+            <div class="step">Step 2 Description</div>
+            <div class="step">Step 3 Description</div>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <h2>Stay Updated on Adventures</h2>
+        <button>Subscribe Now</button>
+    </section>
+
+    <section class="intro">
+        <h2>Embark on an Unforgettable Virtual Journey</h2>
+        <p>Experience travel like never before.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="sign-up">
+        <h2>Sign Up Today</h2>
+        <button>Join Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Immersive Travel. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
