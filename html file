@@ -3,57 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Immersive Travel</title>
+    <title>Business Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Immersive Travel</h1>
-        <nav>
-            <ul>
-                <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#sign-up">Sign Up</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Business Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="how-it-works">
-        <h2>How It Works</h2>
-        <div class="steps">
-            <div class="step">Step 1 Description</div>
-            <div class="step">Step 2 Description</div>
-            <div class="step">Step 3 Description</div>
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to Our Business</h2>
+            <p>We provide top-notch solutions for your business needs.</p>
+            <a href="#contact" class="btn">Get Started</a>
         </div>
     </section>
 
-    <section class="subscribe">
-        <h2>Stay Updated on Adventures</h2>
-        <button>Subscribe Now</button>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a leading company in our industry, offering tailored services to help your business grow.</p>
+        </div>
     </section>
 
-    <section class="intro">
-        <h2>Embark on an Unforgettable Virtual Journey</h2>
-        <p>Experience travel like never before.</p>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Consulting</li>
+                <li>Marketing</li>
+                <li>Web Development</li>
+            </ul>
+        </div>
     </section>
 
     <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <section id="sign-up">
-        <h2>Sign Up Today</h2>
-        <button>Join Now</button>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Immersive Travel. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 Business Name. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
+
+
+   
+    
